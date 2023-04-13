@@ -12,3 +12,13 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+print("ax+b=c")
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+
+c = c - b
+b = b - b
+c = c / a
+print (f"x is equal to {c}")
